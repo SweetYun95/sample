@@ -5,8 +5,122 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>랜딩페이지</title>
       <!-- bootstrap 4.6 -->
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+      <!-- my css -->
+      <link rel="stylesheet" href="assets/css/styles.css" />
    </head>
    <body>
+      <header></header>
+      <!-- kv start -->
+      <section class="kv">
+         <!-- Swiper -->
+         <div class="swiper kvSlider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="kv--title text-center">
+                     <h2>
+                        오늘의 한 세트가
+                        <br />
+                        내일의 한계를 바꾼다
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="kv--title text-center">
+                     <h2>땀은 당신의 최고의 투자</h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="kv--title text-center">
+                     <h2>강한 몸, 흔들리지 않는 마음</h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="kv--title text-center">
+                     <h2>어제보다 무겁게, 내일보다 가볍게</h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="kv--title text-center">
+                     <h2>여기는 당신의 새로운 기록실</h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      <!-- kv end -->
+
+      <!-- content start -->
+      <section class="aiContent common-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="content--title text-center">
+                     <h3 class="line">GTW</h3>
+                     <p>습관을 만들고, 기록하고, 성장하는 당신을 돕습니다.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row text-center mt-40">
+               <div class="col-md-3 col-6">
+                  <div class="serivce">
+                     <img src="assets/images/icon/mdi_human-barbell.svg" alt="아이콘" />
+                     <h4 class="mt-40">맞춤형 루틴</h4>
+                     <p class="mt-20">개인 체력과 목표에 맞춘 프로그램</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="serivce">
+                     <img src="assets/images/icon/majesticons_analytics-line.svg" alt="아이콘" />
+                     <h4 class="mt-40">체계적 기록</h4>
+                     <p class="mt-20">세트·무게·횟수를 손쉽게 저장</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="serivce">
+                     <img src="assets/images/icon/akar-icons_thunder.svg" alt="아이콘" />
+                     <h4 class="mt-40">동기부여 콘텐츠</h4>
+                     <p class="mt-20">매일 새로운 챌린지와 코칭</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="serivce">
+                     <img src="assets/images/icon/fluent_people-community-20-regular.svg" alt="아이콘" />
+                     <h4 class="mt-40">커뮤니티</h4>
+                     <p class="mt-20">함께 성장하는 운동 파트너 연결</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- content end -->
+
+      <!-- banner start -->
+      <section></section>
+      <!-- banner end -->
+
       <!-- bootstrap 4.6 -->
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/jquery.slim.min.js"></script>
+      <!-- swiper -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+         var swiper = new Swiper('.kvSlider', {
+            pagination: {
+               el: '.swiper-pagination',
+            },
+         })
+      </script>
    </body>
 </html>
