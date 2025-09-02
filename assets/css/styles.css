@@ -7,12 +7,33 @@
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   color: white;
 }
 
 .kv--title__cta {
    padding: 10px 15px;
    border: 1px solid #fff;
    border-radius: 100px;
+}
+
+.kv .slide-1 {
+   background: url('../images/Kercel_01.jpg') no-repeat center/cover;
+}
+
+.kv .slide-2 {
+   background: url('../images/Kercel_02.jpg') no-repeat center/cover;
+}
+
+.kv .slide-3 {
+   background: url('../images/Kercel_03.jpg') no-repeat center/cover;
+}
+
+.kv .slide-4 {
+   background: url('../images/Kercel_04.jpg') no-repeat center/cover;
+}
+
+.kv .slide-5 {
+   background: url('../images/Kercel_05.jpg') no-repeat center/cover;
 }
 
 /* content */
