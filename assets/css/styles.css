@@ -44,6 +44,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   color: #2e2e2e;
 }
 
 .content--title .line::before {
@@ -54,14 +55,55 @@
    position: absolute;
    bottom: -20px;
 }
+
+.content--title p {
+   color: #4d4d4d;
+}
+
+.serivce h4 {
+   font-size: 1.125rem;
+   color: #2e2e2e;
+}
+
+.serivce p {
+   font-size: 0.875rem;
+   color: #4d4d4d;
+}
 /* content end */
 
 /* banner */
-.banner{
-   background-color: #F9FAFE;
+.banner {
+   background-color: #f9fafe;
+   height: 520px;
 }
 
-.banner .banner-content{
+.banner .banner--title {
+   padding: 0 54px 67px 55px;
+}
+
+.banner--title h3 {
+   font-size: 1.75rem;
+   color: #2e2e2e;
+}
+
+.banner--title p {
+   font-size: 1.125rem;
+   color: #4d4d4d;
+}
+
+.banner .banner--content {
    background-color: #fff;
+   border-radius: 15px;
+   padding: 0 60px 40px;
+}
+
+.banner--content h4 {
+   font-size: 1.125rem;
+   color: #2e2e2e;
+}
+
+.banner--content p {
+   font-size: 0.875rem;
+   color: #4d4d4d;
 }
 /* banner end */
