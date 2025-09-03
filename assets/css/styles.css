@@ -94,39 +94,45 @@
 /* banner */
 .banner {
    background-color: #f9fafe;
-   height: 520px;
+   padding: 120px 0;
 }
 
-.banner .banner--title {
-   padding: 0 54px 67px 55px;
+.banner .banner--title{
+   padding: 0 55px 64px 54px;
 }
 
 .banner--title h3 {
    font-size: 1.75rem;
    color: #2e2e2e;
 }
-
 .banner--title p {
    font-size: 1.125rem;
    color: #4d4d4d;
 }
 
 .banner .banner--content {
-   background-color: #fff;
+   background: #fff;
    border-radius: 15px;
-   padding: 0 60px 40px;
+   padding: 20px 60px 84px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   height: 100%;
 }
 
-.banner--content h4 {
+
+.banner .banner--content img {
+   display: block;
+   width: 30%;
+   max-width: 96px;
+   height: auto;
+}
+.banner .banner--content h4 {
    font-size: 1.125rem;
    color: #2e2e2e;
 }
-
-.banner--content img {
-   width: 30%;
-}
-
-.banner--content p {
+.banner .banner--content p {
+   margin-bottom: 0;
    font-size: 0.875rem;
    color: #4d4d4d;
 }
@@ -134,12 +140,17 @@
 
 /* pointSection */
 .pointSection {
-   background-image: url('../images/pointbg.png.png');
    background-size: cover;
    background-position: bottom center;
    padding: 100px 0;
    color: #fff;
    /* height: 340px; */
+}
+.pointSection--point1 {
+   background-image: url('../images/pointbg1.png');
+}
+.pointSection--point2 {
+   background-image: url('../images/pointbg2.png');
 }
 .cta--btn {
    padding: 5px 15px;
