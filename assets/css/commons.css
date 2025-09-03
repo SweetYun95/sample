@@ -27,3 +27,7 @@ a:hover {
 .common-padding {
    padding: 120px 0;
 }
+
+img {
+   width: 100%;
+}
