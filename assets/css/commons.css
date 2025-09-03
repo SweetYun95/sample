@@ -31,3 +31,21 @@ a:hover {
 img {
    width: 100%;
 }
+
+/* Footer */
+footer h5 {
+   font-size: 1rem;
+   color: #ffffff;
+}
+
+/* Footer Links and Text */
+footer p,
+footer a {
+   font-size: 0.75rem;
+   color: #e0e0e0;
+   text-decoration: none;
+}
+
+footer a:hover {
+   color: #ffffff;
+}

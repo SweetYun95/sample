@@ -35,6 +35,22 @@
 .kv .slide-5 {
    background: url('../images/Kercel_05.jpg') no-repeat center/cover;
 }
+
+/* Swiper pagination 스타일 */
+.swiper-pagination-bullet {
+   width: 24px;
+   height: 4px;
+   border-radius: 2px;
+   background: #2e2e2e;
+   opacity: 0.3;
+   transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+   background: #dbdbdb;
+   opacity: 1;
+}
+
 /* kv end */
 
 /* content */
@@ -70,7 +86,7 @@
    color: #4d4d4d;
 }
 
-.serivce img{
+.serivce img {
    width: 30%;
 }
 /* content end */
@@ -106,7 +122,7 @@
    color: #2e2e2e;
 }
 
-.banner--content img{
+.banner--content img {
    width: 30%;
 }
 
